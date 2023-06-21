@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="/css/main0.css">
+</head>
+<body>
+
+<div id="header">
+  <h1>可每银行网上系统(管理员)</h1>
+</div>
+
+<div id="nav">
+  <form>
+    <a href="/manager1.1.html">产品管理</a><br>
+    <a href="/manager1.2.html">客户管理</a><br>
+  </form>
+</div>
+
+<div id="section">
+  <table border="1">
+    <tr>
+      <tb>身份证号：</tb>
+      <tb><input type="text" name="id" readonly ></tb><br><!--这地方是只读，需要从上一层读取id-->
+    </tr>
+
+    <tr>
+      <tb>姓  名：</tb>
+      <tb><input type="text" name="name"></tb><br>
+    </tr>
+
+    <tr>
+      <tb>电  话：</tb>
+      <tb><input type="text" name="phone"></tb><br>
+    </tr>
+
+    <tr>
+      <tb>邮  箱：</tb>
+      <tb><input type="text" name="email"></tb><br>
+    </tr>
+
+    <tr>
+      <tb>性  别：</tb>
+      <tb><input type="radio" name="sex" value="male" checked>Male
+        <input type="radio" name="sex" value="female">Female</tb><br>
+    </tr>
+  </table>
+  <input type="submit" value="修改">
+</div>
+
+<div id="footer">
+  Copyright wudikeai.com
+</div>
+
+</body>
+</html>

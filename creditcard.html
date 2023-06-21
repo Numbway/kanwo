@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      background-color: #50beff;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #header {
+      background-color:black;
+      color:white;
+      text-align:center;
+      padding:5px;
+    }
+    #nav {
+      line-height:30px;
+      background-color:#eeeeee;
+      height:300px;
+      width:100px;
+      float:left;
+      padding:5px;
+    }
+    #section {
+      width:350px;
+      float:left;
+      padding:10px;
+    }
+    #footer {
+      background-color:black;
+      color:white;
+      clear:both;
+      text-align:center;
+      padding:5px;
+    }
+
+  </style>
+  <link rel="stylesheet" href="css/main0.css">
+</head>
+<body>
+
+<div id="header">
+  <h1>可每银行网上系统</h1>
+</div>
+
+<div id="nav">
+  <form>
+    <p onclick="document.getElementById('section').innerHTML='信用卡1'">信用卡1</p>
+    <p onclick="document.getElementById('section').innerHTML='信用卡2'">信用卡2</p>
+    <p onclick="document.getElementById('section').innerHTML='信用卡3'">信用卡3</p>
+    <p onclick="document.getElementById('section').innerHTML='信用卡4'">信用卡4</p>
+    <p onclick="document.getElementById('section').innerHTML='信用卡5'">信用卡5</p>
+  </form>
+
+</div>
+
+<div id="section">
+
+</div>
+
+<div id="footer">
+  Copyright wudikeai.com
+</div>
+
+</body>
+</html>
