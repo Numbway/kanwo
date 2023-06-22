@@ -8,21 +8,20 @@
 <body>
 
 <div id="header">
-  <h1>可每银行网上系统(管理员)</h1>
+  <a href="../html/manager1.2.html"><img src="../img/return.png" alt="返回" height="30" width="30"/></a>
+  <p style="text-align: center">可每银行网上系统(管理员)</p>
 </div>
 
 <div id="nav">
-  <form>
-    <a href="/manager1.1.html">产品管理</a><br>
-    <a href="/manager1.2.html">客户管理</a><br>
-  </form>
+  <li><a href="../html/manager1.1.html">产品管理</a></li>
+  <li><a href="../html/manager1.2.html">客户管理</a></li>
 </div>
 
 <div id="section">
   <table border="1">
     <tr>
       <tb>身份证号：</tb>
-      <tb><input type="text" name="id"></tb><br>
+      <tb><input type="text" name="id" readonly ></tb><br><!--这地方是只读，需要从上一层读取id-->
     </tr>
 
     <tr>
@@ -46,7 +45,7 @@
         <input type="radio" name="sex" value="female">Female</tb><br>
     </tr>
   </table>
-  <input type="submit" value="添加">
+  <input type="submit" value="修改">
 </div>
 
 <div id="footer">
