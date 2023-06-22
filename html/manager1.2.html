@@ -4,11 +4,26 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="/css/main0.css">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {background-color: #f2f2f2;}
+  </style>
 </head>
 <body>
 
 <div id="header">
-  <a href="../html/manager1.html"><img src="../img/return.png" alt="返回" height="30" width="30"/></a>
+  <div id="return">
+    <a href="../html/manager1.html"><img src="../img/return.png" alt="返回" height="50" width="50"/></a>
+  </div>
   <p style="text-align: center">可每银行网上系统（管理员）</p>
 </div>
 
@@ -23,7 +38,7 @@
   <table border="1">
     <tr><!--此行为表头-->
       <td>身份证</td>
-      <td style="width: 400px">姓    名</td>
+      <td>姓    名</td>
       <td>账号</td>
       <td>邮箱</td>
       <td>电话</td>
