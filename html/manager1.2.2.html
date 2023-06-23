@@ -11,7 +11,7 @@
   <div id="return">
     <a href="../html/manager1.2.html"><img src="../img/return.png" alt="返回" height="50" width="50"/></a>
   </div>
-  <p style="text-align: center">可每银行网上系统(管理员)</p>
+  <p>可每银行网上系统（管理员）</p>
 </div>
 
 <div id="nav">
@@ -23,17 +23,22 @@
   <table border="1">
     <tr>
       <tb>身份证号：</tb>
-      <tb><input type="text" name="id" readonly ></tb><br><!--这地方是只读，需要从上一层读取id-->
+      <tb><input type="text" name="id" maxlength="20" minlength="16" readonly><!--此处应该填写上一页中读取的数据--></tb><br>
+    </tr>
+
+    <tr>
+      <tb>密  码：</tb>
+      <tb><input type="password" name="pwd" minlength="8" maxlength="20" required></tb><br>
     </tr>
 
     <tr>
       <tb>姓  名：</tb>
-      <tb><input type="text" name="name"></tb><br>
+      <tb><input type="text" name="name" minlength="2" maxlength="10" required></tb><br>
     </tr>
 
     <tr>
       <tb>电  话：</tb>
-      <tb><input type="text" name="phone"></tb><br>
+      <tb><input type="text" name="phone"minlength="10" maxlength="20" required></tb><br>
     </tr>
 
     <tr>

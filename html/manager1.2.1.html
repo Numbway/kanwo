@@ -23,17 +23,22 @@
   <table border="1">
     <tr>
       <tb>身份证号：</tb>
-      <tb><input type="text" name="id"></tb><br>
+      <tb><input type="text" name="id" maxlength="20" minlength="16" required></tb><br>
+    </tr>
+
+    <tr>
+      <tb>密  码：</tb>
+      <tb><input type="password" name="pwd" minlength="8" maxlength="20" required></tb><br>
     </tr>
 
     <tr>
       <tb>姓  名：</tb>
-      <tb><input type="text" name="name"></tb><br>
+      <tb><input type="text" name="name" minlength="2" maxlength="10" required></tb><br>
     </tr>
 
     <tr>
       <tb>电  话：</tb>
-      <tb><input type="text" name="phone"></tb><br>
+      <tb><input type="text" name="phone"minlength="10" maxlength="20" required></tb><br>
     </tr>
 
     <tr>
