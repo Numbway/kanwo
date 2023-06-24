@@ -25,6 +25,9 @@ body{
 #header #head{
   vertical-align: center;
   horiz-align: center;
+  position: absolute;
+  top: 7.5%;
+  left: 50%;
 }
 
 /*导航块样式格式*/
@@ -43,7 +46,8 @@ body{
 
 /*主体样式格式*/
 #section {
-  background-color: #2196F3;
+  background-color: blanchedalmond;
+
   width:90%;
   float:left;
   padding:10px;
